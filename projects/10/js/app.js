@@ -106,7 +106,7 @@ function showSearchResults (results,filterClass) {
                 results.length !== filterList.length
                 ) {                
                 confirmedMatch.push(filterList[i].parentNode.parentNode.parentNode);
-                //console.log(results[z]);
+                console.log(results[z]);
             }   
         }
     }
